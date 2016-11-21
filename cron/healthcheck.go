@@ -3,9 +3,9 @@ package cron
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/dinp/common/model"
-	"github.com/dinp/hm/g"
-	"github.com/fsouza/go-dockerclient"
+	"github.com/smartcaas/common/model"
+	"github.com/smartcaas/hm/g"
+	"github.com/smartcaas/go-dockerclient"
 	"github.com/go-av/curl"
 	"log"
 	"strconv"
